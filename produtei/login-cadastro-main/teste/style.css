@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #bebebb;
+}
+.formulario{
+    height: 500px;
+    width: 500px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: .4s all;
+    border-left: 13px solid #5c84b434;
+    border-bottom: 13px solid #5c84b434 ;
+}
+input{
+    outline: 0;
+    border: 0;
+   
+}
+
+form input[type=text]{
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.151);
+}
+form input[type=submit]{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #5c83b4;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 63%;
+    left:46.5%;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+
+}
+.formulario a{
+    color:white;
+}
+form input[type=submit]:hover{
+    transform: translateY(-5px);
+}
+.formulario  h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    font-size: 3em;
+    font-family: arial;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #5c83b4;
+    color: #5c83b4;
+    
+}
+.text{
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+.text .barra{
+    position: absolute;
+    border: 1px solid #5c83b4;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}

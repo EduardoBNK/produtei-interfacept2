@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background: #1a1a1a;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    top: 0;
+}
+
+
+nav a{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s all ;
+    margin-right: 50px;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    transform: translateY(-5px);
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.menu i{
+    font-size: 35px;
+    color: white;
+    transition: .3s all;
+    position: absolute;
+    top: 7px;
+    cursor: pointer;
+}
+.menu i:hover{
+    transform: translateY(-5px);
+}
+.background-grey{
+    background-color: #ebebeb;
+}
+.content{
+    padding-top: 60px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 70vh;
+}
+.text h2{
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.text p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text button{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px 30px ;
+    background: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    transition: .3s all;
+    cursor: pointer;
+}
+.text button:hover{
+    transform: translateY(-5px);
+}
+
+.background-black{
+background: #1a1a1a;
+box-shadow: 0 0 10px black;
+
+}
+.content2{
+    display: grid;
+    margin: 0 auto;
+
+}
+.content2 img{
+    width: 300px;
+    
+}
+.container{
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+.flex1:hover{
+transform: translateY(-5px);
+}
+.flex2:hover{
+    transform: translateY(-5px);
+    }
+    .flex3:hover{
+        transform: translateY(-5px);
+        
+        }
+
+
+
+
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 30px;
+    transition: .3s all;
+    cursor: pointer;
+    
+}
+.flex3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 30px;
+    transition: .3s all;
+    cursor: pointer;
+ 
+}
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 30px;
+    transition: .3s all;
+    cursor: pointer;
+  
+  
+}
+.principais-produtos{
+    padding-top: 30px;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: impact;
+}
+.logo h1 span{
+   color: white;
+    font-size: 1em;
+}
+.logo h1{
+    color: #172db0;
+    text-shadow: 0 0 2px #172db0;
+   
+}
+
+.content3{
+    display: grid;
+    margin: 60px;
+    justify-content: space-evenly;
+    
+    
+}
+.container2{
+    grid-template-columns:repeat(4,1fr);
+    
+    
+}
+.content3 img{
+    max-width: 100%;
+    
+}
+.flex4 img{
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+   height: 250px;
+   width: 350px;
+    object-fit: cover;
+    padding: 15px;
+}
+.flex4 img:hover{
+    transform: translateY(-5px);
+}
+.flex5 img{
+    padding: 15px;
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    
+}
+.flex5 img:hover{
+    transform: translateY(-5px);
+}
+.flex6 img{
+    padding: 15px;
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+   
+}
+.flex6 img:hover{
+    transform: translateY(-5px);
+}
+.flex7 img{
+    padding: 15px;
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+   
+}
+.flex7 img:hover{
+    transform: translateY(-5px);
+}
+main{
+    background-color: #ebebeb;
+}
+.flex4{
+    display: flex;
+    flex-direction: column;
+    margin:90px 50px;
+    line-height: 30px;
+}
+.flex5{
+    display: flex;
+    flex-direction: column;
+    margin:90px 50px;
+    line-height: 30px;
+}
+.flex6{
+    display: flex;
+    flex-direction: column;
+    margin:90px 50px;
+    line-height: 30px;
+}
+.flex7{
+    display: flex;
+    flex-direction: column;
+    margin:90px 50px;
+    line-height: 30px;
+}
+.flex8{
+    display: flex;
+    flex-direction: column;
+    margin:90px 50px;
+    line-height: 30px;
+}
+.flex9{
+    display: flex;
+    flex-direction: column;
+    margin:90px 50px;
+    line-height: 30px;
+}
+.flex10{
+    display: flex;
+    flex-direction: column;
+    margin:90px 50px;
+    line-height: 30px;
+}
+
+.flex4 .rate{
+    margin-top: 15px;
+}
+.flex5 .rate{
+    margin-top: 15px;
+}
+.flex6 .rate{
+    margin-top: 15px;
+}
+.flex7 .rate{
+    margin-top: 15px;
+}
+
+.background-black2{
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px black;
+}
+.flex11{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.catalogo img{
+    width:600px;
+    height: 400px;
+}
+.text4 h2{
+    color: white;
+    font-size: 2.5em;
+
+}
+.text4 button{
+    padding: 15px 30px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    transition: .2s all;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.text4 button:hover{
+    transform: translateY(-5px);
+    
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ebebeb;
+    padding: 100px 200px;
+}
+.redes a i{
+    font-size: 80px;
+    color: black;
+
+}
+.redes a{
+    padding: 70px;
+    background: white;
+    border-radius: 15px;
+    transition: .2s all;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+}
+.redes a:hover{
+    transform: translateY(-5px);
+}
+footer{
+    background: black;
+    box-shadow: 0 0 10px black;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logofinal h1{
+    color: #172db0;
+    text-shadow: 0 0 2px #172db0;
+    font-size: 6em;
+}
+.logofinal h1 span{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.destaques{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+   
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.flex8 img{
+    padding: 15px;
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+   
+}
+.flex8 img:hover{
+    transform: translateY(-5px);
+}
+.flex9 img{
+    padding: 15px;
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+   
+}
+.flex9 img:hover{
+    transform: translateY(-5px);
+}
+.flex10 img{
+    padding: 15px;
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+   
+}
+.flex10 img:hover{
+    transform: translateY(-5px);
+}
+.flex10 img{
+    padding: 15px;
+    background: #fff;
+    transition: .2s all;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+   
+}
+.flex10 img:hover{
+    transform: translateY(-5px);
+}
+.flex7 .rate{
+    margin-top: 15px;
+}
+.flex8 .rate{
+    margin-top: 15px;
+}
+.flex9 .rate{
+    margin-top: 15px;
+}
+.flex10 .rate{
+    margin-top: 15px;
+}
+.containerbox1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.rate2{
+    font-size: 25px;
+}
+.rate1{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
